@@ -12,6 +12,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-align: Left;
 }
 
 #history {
@@ -39,20 +40,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.2rem;
-  background-color: #767b91;
-}
-
-.position {
-  font-family: 'Convergence', sans-serif;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 1.2rem;
+  background-color: #181818;
+  color: #bebebe;
 }
 
 .form {
@@ -100,8 +89,26 @@ body {
   background-color: green;
 }
 
-.btn-box {
-  border: 2px solid white;
+.position {
+  font-family: 'Convergence', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.position__text {
+  max-width: 400px;
+}
+
+.box {
+  border: 2px solid;
   border-radius: 0.5rem;
 }
 

@@ -15,8 +15,9 @@ $clr-gray400: #767b91;
 $clr-gray500: #4f546c;
 $clr-gray600: #2a324b;
 $clr-gray700: #161d34;
+$clr-text: #bebebe;
 /* $clr-bg: #060b23; */
-$clr-bg: #767b91;
+$clr-bg: #181818;
 $clr-yellow: #ffd23f;
 $clr-green: green;
 
@@ -32,6 +33,7 @@ $radius: 0.5rem;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-align: Left;
 }
 
 #history {
@@ -43,6 +45,8 @@ $radius: 0.5rem;
   font-size: 90px;
   text-align: center;
 }
+
+
 
 *,
 *::before,
@@ -57,14 +61,9 @@ body {
   align-items: center;
   font-size: 1.2rem;
   background-color: $clr-bg;
+  color: $clr-text;
 }
-.position {
-  font-family: 'Convergence', sans-serif;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-}
+
 
 .form {
   position: relative;
@@ -111,10 +110,23 @@ body {
   }
 }
 
-.btn-box {
-  border: 2px solid $clr-white;
+.position {
+  font-family: 'Convergence', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+
+  &__text {
+    max-width: 400px;
+  }
+}
+.box {
+  border: 2px solid ;
   border-radius: $radius;
 }
+
 
 /* 
 1. When the input is in the focus state

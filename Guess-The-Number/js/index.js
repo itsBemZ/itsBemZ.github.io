@@ -30,9 +30,13 @@ window.onload = function () {
 function playGame() {
   // *CODE GOES BELOW HERE *
   let numberGuess = document.getElementById('number-guess').value;
-  saveGuessHistory(numberGuess);
-  displayHistory();
-  displayResult(numberGuess);
+  if ( numberGuess >= 1 ) {
+    saveGuessHistory(numberGuess);
+    displayHistory();
+    displayResult(numberGuess);
+} else {
+    showError();
+  }
 }
 
 /* BONUSES  */
@@ -40,12 +44,10 @@ function keyboard() {
   let input = document.getElementById('number-guess');
   input.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
-      event.preventDefault();
-      document.getElementById('number-submit').click();
+      playGame();
     }
     if (event.keyCode === 27) {
-      event.preventDefault();
-      document.getElementById('restart-game').click();
+      initGame();
     }
   });
 }
@@ -61,9 +63,12 @@ function displayResult(numberGuesses) {
   } else if (numberGuesses < correctNumber) {
     showNumberBelow();
     //console.log("Your guess number is too low");
-  } else {
+  } else if (numberGuesses = correctNumber) {
     showYouWon();
     //console.log("Your guess number is correct!");
+  } else {
+    showError();
+    //console.log("Add Number before you Check! ");
   }
 }
 
@@ -122,10 +127,11 @@ function saveGuessHistory(guess) {
 function displayHistory() {
   let index = guesses.length - 1; // TODO
   let list = "<ul class='list-group'>";
+  let title = "<h1 class='position__text'>History</h1>";
   // *CODE GOES BELOW HERE *
   while (index >= 0) {
     list +=
-      "<li class='list-group-item list-group-item-action'>" +
+      "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
       guesses[index] +
       '</a>';
@@ -133,7 +139,14 @@ function displayHistory() {
   }
   list += '</ul>';
   document.getElementById('history').innerHTML = list;
+
+  if (list.length <= 28) {
+      document.getElementById('historyTitle').innerHTML = "";
+    } else {
+      document.getElementById('historyTitle').innerHTML = title;
+    }
 }
+
 
 /**
  * Retrieve the dialog based on if the guess is wrong or correct
@@ -147,10 +160,25 @@ function getDialog(dialogType, text) {
     case 'won':
       dialog = "<div class='alert alert-success my-3' role='alert'>";
       break;
+    case 'error':
+      dialog = "<div class='alert alert-danger my-3' role='alert'>";
+      break;
   }
   dialog += text;
   dialog += '</div>';
   return dialog;
+}
+
+function showError() {
+  const text = 'Add Number before you Check!';
+  /**
+   * Retrieve the dialog using the getDialog() function
+   * and save it to variable called dialog
+   * HINT: Use the 'error' and text parameters
+   */
+  // *CODE GOES BELOW HERE *
+  let dialog = getDialog('error', text);
+  document.getElementById('result').innerHTML = dialog;
 }
 
 function showYouWon() {
