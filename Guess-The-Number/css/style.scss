@@ -62,6 +62,9 @@ body {
   font-size: 1.2rem;
   background-color: $clr-bg;
   color: $clr-text;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
 }
 
 
@@ -122,6 +125,7 @@ body {
     max-width: 400px;
   }
 }
+
 .box {
   border: 2px solid ;
   border-radius: $radius;
