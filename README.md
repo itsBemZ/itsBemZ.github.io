@@ -6,7 +6,6 @@
 
 - #### [Guess The Number](imBemZy.github.io/guess-the-number/) - awesome game using Vanilla JavaScript.
 
----
 
 ## License
 
