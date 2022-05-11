@@ -78,7 +78,7 @@ function initGame() {
   displayHistory();
   resetResultContent();
   clearInputText();
-  console.log('this is the correct number ' + correctNumber);
+  // console.log('this is the correct number ' + correctNumber);
 }
 
 function clearInputText() {
