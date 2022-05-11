@@ -1,0 +1,131 @@
+/* Google fonts */
+@import url(https://fonts.googleapis.com/css?family=Convergence:regular);
+
+/* Color Variables */
+$clr-primary: #18ffff;
+$clr-primary-light: #adffff;
+$clr-primary-dark: #091034;
+$clr-primary-dark: #091034;
+$clr-white: white;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+/* $clr-bg: #060b23; */
+$clr-bg: #767b91;
+$clr-yellow: #ffd23f;
+$clr-green: green;
+
+/* Border Radius */
+$radius: 0.5rem;
+
+#controls-btn,
+#number-guess,
+#result,
+#history {
+  max-width: 400px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#history {
+  margin-top: 16px;
+}
+
+.banner {
+  color: $clr-yellow;
+  font-size: 90px;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Convergence', sans-serif;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: $clr-bg;
+}
+.position {
+  font-family: 'Convergence', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  height: 3rem;
+  background: none;
+
+  &__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid $clr-gray300;
+    border-radius: $radius;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+
+    &:hover {
+      border-color: $clr-primary-light;
+    }
+
+    /* Change border when input focus */
+
+    &:focus {
+      border-color: $clr-primary;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    left: 25%;
+    top: 0.6rem;
+    padding: 0 0.5rem;
+    color: $clr-white;
+    cursor: text;
+    border-radius: $radius;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: $clr-green;
+  }
+}
+
+.btn-box {
+  border: 2px solid $clr-white;
+  border-radius: $radius;
+}
+
+/* 
+1. When the input is in the focus state
+reduce the size of the label and move upwards 
+
+2. Keep label state when content is in input field 
+*/
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
