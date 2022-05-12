@@ -51,7 +51,7 @@ function displayResult(numberGuesses) {
   } else if (numberGuesses < correctNumber) {
     showNumberBelow();
     //console.log("Your guess number is too low");
-  } else if (numberGuesses === correctNumber) {
+  } else if (numberGuesses = correctNumber) {
     showYouWon();
     //console.log("Your guess number is correct!");
   } else {
