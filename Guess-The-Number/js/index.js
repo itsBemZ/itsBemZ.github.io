@@ -122,7 +122,6 @@ function displayHistory() {
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
       guesses[index] +
-      getDialog(text) +
       '</a>';
     index -= 1;
   }
@@ -205,3 +204,8 @@ function showNumberBelow() {
   let dialog = getDialog('warning', text);
   document.getElementById('result').innerHTML = dialog;
 }
+
+cconsol.log("getDialog: " + getDialog);
+cconsol.log("getDialog(): " + getDialog());
+cconsol.log("getDialog(text): " + getDialog(text));
+cconsol.log("dialog: " + dialog);
