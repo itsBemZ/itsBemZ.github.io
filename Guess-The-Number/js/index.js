@@ -204,8 +204,3 @@ function showNumberBelow() {
   let dialog = getDialog('warning', text);
   document.getElementById('result').innerHTML = dialog;
 }
-
-cconsol.log("getDialog: " + getDialog);
-cconsol.log("getDialog(): " + getDialog());
-cconsol.log("getDialog(text): " + getDialog(text));
-cconsol.log("dialog: " + dialog);
