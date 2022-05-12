@@ -1,16 +1,3 @@
-/**
- * Guess The Number Game
- * DONE: Get user value from input and save it to variable numberGuess
- * DONE: Generate a random number 1 to 100 and save it to variable correctNumber
- * DONE: Console whether the guess is too high, too low, or is correct inside playGame function
- * DONE: Create a function called displayResult to move the logic for if the guess is too high, too low, or correct
- * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
- * DONE: Use the showYouWon... functions within displayResult to display the correct dialog
- * DONE: Save the guess history in a variable called guess
- * DONE: Display the guess history using displayHistory() function
- * DONE: Use the initGame() function to restart the game
- */
-
 // Variable to store the list of guesses
 let guesses = [];
 // Variable for store the correct random number
@@ -39,12 +26,14 @@ function playGame() {
   }
 }
 
-/* BONUSES  */
+/* Use Keyboard Buttons */
 function keyboard() {
+  // *CODE GOES BELOW HERE *
   let input = document.getElementById('number-guess');
   input.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
       playGame();
+      clearInputText();
     }
     if (event.keyCode === 27) {
       initGame();
@@ -63,7 +52,7 @@ function displayResult(numberGuesses) {
   } else if (numberGuesses < correctNumber) {
     showNumberBelow();
     //console.log("Your guess number is too low");
-  } else if (numberGuesses = correctNumber) {
+  } else if (numberGuesses === correctNumber) {
     showYouWon();
     //console.log("Your guess number is correct!");
   } else {
@@ -170,7 +159,7 @@ function getDialog(dialogType, text) {
 }
 
 function showError() {
-  const text = 'Add Number before you Check!';
+  const text = 'Add Number Between 1 and 100 before you Check!';
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
