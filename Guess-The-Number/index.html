@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
 
     <title>Guess The Number</title>
-    <meta name="description" content="Guess The Number is a game that takes a random number between 1 and 100 you need to guess what the number is!" />
+    <meta name="description" content="Guess The Number is a game that chooses a random number between 1 and 100 and you need to guess what the number is." />
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -32,14 +32,13 @@
           />
           Guess The Number
         </a>
-        <!-- aria-label="Toggle navigation" -->
       </div>
     </nav>
     <!-- Main-->
     <main>
       <div class="position">
       <h1 class="banner p-3">1.2.3.</h1>
-      <p class="position__text">Guess The Number is a game that takes a random number between 1 and 100 you need to guess what the number is!</p>
+      <p class="position__text">Guess The Number is a game that chooses a random number between 1 and 100 and you need to guess what the number is!</p>
         <div id="input" class="form" action="/" method="GET">
           <div id="error"></div>
           <input
@@ -54,7 +53,6 @@
             oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
             required
           />
-          <!-- placeholder="What's your guess?" -->
           <label for="number-guess" class="form__label"
             >What's your guess?</label
           >
