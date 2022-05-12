@@ -33,7 +33,6 @@ function keyboard() {
   input.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
       playGame();
-      clearInputText();
     }
     if (event.keyCode === 27) {
       initGame();
@@ -123,6 +122,7 @@ function displayHistory() {
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
       guesses[index] +
+      getDialog(text) +
       '</a>';
     index -= 1;
   }
