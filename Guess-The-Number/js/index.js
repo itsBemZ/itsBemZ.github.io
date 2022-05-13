@@ -13,7 +13,6 @@ window.onload = function () {
 
 
 function playGame() {
-
   let numberGuess = document.getElementById('number-guess').value;
   if ( numberGuess >= 1 ) {
     saveGuessHistory(numberGuess);
@@ -102,6 +101,7 @@ function displayHistory() {
 
 function getDialog(dialogType, text) {
   let dialog;
+  
   switch (dialogType) {
     case 'warning':
       dialog = "<div class='alert alert-warning my-3 ' role='alert'>";
@@ -120,28 +120,28 @@ function getDialog(dialogType, text) {
 
 function showError() {
   const text = 'Add Number before you Check!';
- 
+
   let dialog = getDialog('error', text);
   document.getElementById('result').innerHTML = dialog;
 }
 
 function showYouWon() {
   const text = 'Awesome job, you got it!';
-  
+
   let dialog = getDialog('won', text);
   document.getElementById('result').innerHTML = dialog;
 }
 
 function showNumberAbove() {
   const text = 'Your guess is too high!';
-  
+
   let dialog = getDialog('warning', text);
   document.getElementById('result').innerHTML = dialog;
 }
 
 function showNumberBelow() {
   const text = 'Your guess is too low!';
-  
+
   let dialog = getDialog('warning', text);
   document.getElementById('result').innerHTML = dialog;
 }
