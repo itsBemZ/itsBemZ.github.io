@@ -1,6 +1,7 @@
 {
   "short_name": "Guess",
   "name": "Guess The Number",
+  "description": "Awesome Web-Game using Vanilla JavaScript.",
   "icons": [
     {
       "src": "./img/icons/favicon.ico",
@@ -34,7 +35,6 @@
     }
   ],
   "scope": "/",
-  "id": "guessthenumber",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
