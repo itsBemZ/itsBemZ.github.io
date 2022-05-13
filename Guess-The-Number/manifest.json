@@ -33,10 +33,11 @@
       "sizes": "512x512"
     }
   ],
+  "scope": "/",
+  "id": "guessthenumber",
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#181818",
   "orientation": "portrait-primary",
-
+  "theme_color": "#000000",
+  "background_color": "#181818"
 }
