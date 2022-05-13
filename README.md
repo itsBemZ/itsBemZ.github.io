@@ -4,7 +4,7 @@
 
 ## _My projects_ :
 
-- #### [Guess The Number](https://imbemzy.github.io/Guess-The-Number/) - Awesome Web-Game using Vanilla JavaScript.
+- #### [Guess The Number](https://imbemzy.github.io/Guess-The-Number/){:target="_blank"} - Awesome Web-Game using Vanilla JavaScript.
 
 
 ## License
