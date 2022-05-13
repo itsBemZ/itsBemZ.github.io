@@ -4,11 +4,11 @@
   "icons": [
     {
       "src": "./img/icons/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "./img/icons/logo16.png",
+      "src": "./img/icons/favicon-16x16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
@@ -16,6 +16,11 @@
       "src": "./img/icons/logo32.png",
       "type": "image/png",
       "sizes": "32x32"
+    },
+    {
+      "src": "./img/icons/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     },
     {
       "src": "./img/icons/logo192.png",
