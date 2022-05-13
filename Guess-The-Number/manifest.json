@@ -1,35 +1,37 @@
 {
-  "short_name": "GuessTheNumber",
-  "name": "Guess The Number Game",
+  "short_name": "Guess",
+  "name": "Guess The Number",
   "icons": [
     {
-      "src": "../img/favicon.ico",
+      "src": "./img/icons/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../img/logo16.png",
+      "src": "./img/icons/logo16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "../img/logo32.png",
+      "src": "./img/icons/logo32.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "../img/logo192.png",
+      "src": "./img/icons/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../img/logo512.png",
+      "src": "./img/icons/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "../",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#181818",
+  "orientation": "portrait-primary",
+
 }
