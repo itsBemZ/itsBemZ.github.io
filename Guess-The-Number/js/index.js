@@ -92,11 +92,11 @@ function displayHistory() {
   list += '</ul>';
   document.getElementById('history').innerHTML = list;
 
-  if (list.length <= 28) {
-      document.getElementById('historyTitle').innerHTML = "";
-    } else {
-      document.getElementById('historyTitle').innerHTML = title;
-    }
+  if (guesses.length <= 0) {
+    document.getElementById('historyTitle').innerHTML = "";
+  } else {
+    document.getElementById('historyTitle').innerHTML = title;
+  }
 }
 
 function getDialog(dialogType, text) {
