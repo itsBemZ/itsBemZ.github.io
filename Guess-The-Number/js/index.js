@@ -9,8 +9,16 @@ window.onload = function () {
   document.getElementById('number-submit').addEventListener('click', playGame);
   document.getElementById('restart-game').addEventListener('click', initGame);
   document.getElementById('reload').addEventListener('click', initGame);
+  refreshTime(setInterval(refreshTime, 1000));
 };
 
+
+function refreshTime() {
+  let timeDisplay = document.getElementById("time");
+  let dateString = new Date().toLocaleTimeString();
+  let formattedString = dateString.replace(", ", " - ");
+  timeDisplay.innerHTML = formattedString;
+}
 
 function playGame() {
   let numberGuess = document.getElementById('number-guess').value;
