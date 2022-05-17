@@ -45,8 +45,8 @@
 ---
 
 <p align="center">
-<p align="left"><img align="left" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs?username=imbemzy&show_icons=true&locale=en&layout=compact" alt="imbemzy" /></p>
-<p align="center"><img align="center"  width="49%" src="https://github-readme-stats.vercel.app/api?username=imbemzy&show_icons=true&locale=en" alt="imbemzy" /></p>
+<p align="left"><img align="left" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=imbemzy&show_icons=true&locale=en&layout=compact" alt="imbemzy" /></p>
+<p align="center"><img align="center"  width="48%" src="https://github-readme-stats.vercel.app/api?username=imbemzy&show_icons=true&locale=en" alt="imbemzy" /></p>
 </p>
 
 ---
