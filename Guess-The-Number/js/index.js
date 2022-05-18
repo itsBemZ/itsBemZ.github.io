@@ -16,8 +16,7 @@ window.onload = function () {
 function refreshTime() {
   let timeDisplay = document.getElementById("time");
   let dateString = new Date().toLocaleTimeString();
-  let formattedString = dateString.replace(", ", " - ");
-  timeDisplay.innerHTML = formattedString;
+  timeDisplay.innerHTML = dateString;
 }
 
 function playGame() {
@@ -52,6 +51,7 @@ function displayResult(numberGuesses) {
     showNumberBelow();
   } else if (numberGuesses = correctNumber) {
     showYouWon();
+    showAlert();
   } else {
     showError();
 
@@ -88,9 +88,9 @@ function displayHistory() {
   let index = guesses.length - 1;
   let title = "<h1 class='position__text'>History</h1>";
   let list = "<ul class='list-group'>";
-  
-  while (index >= 0) {
-    let text = correctNumber > guesses[index]?' is too low!':(correctNumber < guesses[index]?' is too high!':' you got it!');
+  let attempts = guesses.length;
+  while (index >= 0 && attempts >= 0) {
+    let text = correctNumber > guesses[index]?' which is pretty low!':(correctNumber < guesses[index]?' which is pretty high!':' 👏Bravo! 😍 you got it after ' + attempts + ' guess(es).');
     list +=
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
@@ -98,9 +98,13 @@ function displayHistory() {
       text +
       '</li>';
     index -= 1;
+    attempts -= 1;
   }
   list += '</ul>';
-  document.getElementById('history').innerHTML = list;
+  
+  if(guesses[guesses.length-2] != correctNumber){
+    document.getElementById('history').innerHTML = list;
+    }
 
   if (guesses.length <= 0) {
     document.getElementById('historyTitle').innerHTML = "";
@@ -126,6 +130,14 @@ function getDialog(dialogType, text) {
   dialog += text;
   dialog += '</div>';
   return dialog;
+}
+
+function showAlert() {
+  let attempts = guesses.length;
+  let message = 'Bravo! you got it after ' + attempts + ' guess(es).';
+  if(guesses[guesses.length-2] != correctNumber){
+    console.log(message);
+    }
 }
 
 function showError() {
