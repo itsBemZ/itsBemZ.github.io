@@ -86,15 +86,16 @@ function saveGuessHistory(guess) {
 
 function displayHistory() {
   let index = guesses.length - 1;
-  let list = "<ul class='list-group'>";
   let title = "<h1 class='position__text'>History</h1>";
+  let list = "<ul class='list-group'>";
 
   while (index >= 0) {
     list +=
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
       guesses[index] +
-      '</a>';
+      correctNumber>guesses[index]?'too Low!':(correctNumber<guesses[index]?'too High!':"") +
+      '</li>';
     index -= 1;
   }
   list += '</ul>';
