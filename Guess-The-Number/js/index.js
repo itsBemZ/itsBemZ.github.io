@@ -88,9 +88,9 @@ function displayHistory() {
   let index = guesses.length - 1;
   let title = "<h1 class='position__text'>History</h1>";
   let list = "<ul class='list-group'>";
-  let text = correctNumber > guesses[index]?' too Low!':(correctNumber < guesses[index]?' too High!':' you got it!');
-
+  
   while (index >= 0) {
+    let text = correctNumber > guesses[index]?' is too Low!':(correctNumber < guesses[index]?' is too High!':' you got it!');
     list +=
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
