@@ -94,8 +94,8 @@ function displayHistory() {
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
       guesses[index] +
-      correctNumber>guesses[index]?'too Low!':(correctNumber<guesses[index]?'too High!':"") +
-      '</li>';
+      correctNumber>guesses[index]?' too Low!':(correctNumber<guesses[index]?' too High!':' you got it!') +
+      '</a>';
     index -= 1;
   }
   list += '</ul>';
