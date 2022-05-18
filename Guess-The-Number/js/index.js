@@ -134,7 +134,7 @@ function getDialog(dialogType, text) {
 
 function showAlert() {
   let attempts = guesses.length;
-  let message = 'Bravo! you got it after ' + attempts + ' guess(es).';
+  let message = '👏 Bravo! 😍 you got it after ' + attempts + ' guess(es).';
   if(guesses[guesses.length-2] != correctNumber){
     alert(message);
     }
