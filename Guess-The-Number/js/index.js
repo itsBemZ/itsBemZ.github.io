@@ -90,7 +90,7 @@ function displayHistory() {
   let list = "<ul class='list-group'>";
   
   while (index >= 0) {
-    let text = correctNumber > guesses[index]?' is too Low!':(correctNumber < guesses[index]?' is too High!':' you got it!');
+    let text = correctNumber > guesses[index]?' is too low!':(correctNumber < guesses[index]?' is too high!':' you got it!');
     list +=
       "<li class='list-group-item list-group-item-action list-group-item-dark'>" +
       'You guessed ' +
