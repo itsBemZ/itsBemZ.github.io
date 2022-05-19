@@ -81,7 +81,9 @@ function getRandomNumber() {
 }
 
 function saveGuessHistory(guess) {
+  if(guesses[guesses.length-1] != correctNumber){
   guesses.push(guess);
+  }
 }
 
 function displayHistory() {
@@ -101,10 +103,7 @@ function displayHistory() {
     attempts -= 1;
   }
   list += '</ul>';
-  
-  if(guesses[guesses.length-2] != correctNumber){
-    document.getElementById('history').innerHTML = list;
-    }
+  document.getElementById('history').innerHTML = list;
 
   if (guesses.length <= 0) {
     document.getElementById('historyTitle').innerHTML = "";
