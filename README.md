@@ -9,7 +9,7 @@
 
 ---
 
-<img align="right" alt="Image" width="300" src="https://raw.githubusercontent.com/imBemZy/imBemZy.github.io/main/Portfolio/Assest/gif/error.gif?raw=true" />
+<!-- <img align="right" alt="Image" width="300" src="https://raw.githubusercontent.com/imBemZy/imBemZy.github.io/main/Portfolio/Assest/gif/error.gif?raw=true" /> -->
 
 - 🔭 I’m currently working on **[Guess The Number](https://imbemzy.github.io/Guess-The-Number/)** <span><a href="https://twitter.com/zouhair_bem" target="blank"><img style="border-radius:10px;" src="https://img.shields.io/website?down_color=red&down_message=offline&label=&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2Fimbemzy.github.io%2FGuess-The-Number%2F" alt="zouhair_bem" /></a></span> - Awesome Web-Game using [Vanilla JavaScript](http://vanilla-js.com/)
 
