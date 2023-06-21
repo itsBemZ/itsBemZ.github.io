@@ -1,5 +1,5 @@
 <p align="center">
-<img  align="center" style="border-radius: 50px;" alt="Image" width="75%" src="https://raw.githubusercontent.com/imBemZy/imBemZy/main/src/Assest/gif/jim-carrey-typing.gif?raw=true" />
+<img  align="center" alt="Image" width="100%" src="https://raw.githubusercontent.com/imBemZy/imBemZy/main/src/Assest/gif/jim-carrey-typing.gif?raw=true" />
 </p>
 
 <p align="center">
@@ -33,16 +33,15 @@
 **Connect with me:**
 <p align="left">
 <a href="https://github.com/imBemZy/" target="blank">
-<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github" height="30" width="40" /></code></a>
+<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" /></code></a>
 <a href="https://twitter.com/zouhair_bem" target="blank">
-<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" /></code></a>
+<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></code></a>
 <a href="https://instagram.com/zouhair_bem" target="blank">
-<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="twitter" height="30" width="40" /></code></a>
+<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Twitter" height="30" width="40" /></code></a>
 <a href="https://medium.com/@zouhair.bem" target="blank">
 <code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="medium" height="30" width="40" /></code></a>
-<a href="https://dev.to/imbemzy" target="blank">
-<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="devto" height="30" width="40" /></code></a>
-
+<!-- <a href="https://dev.to/imbemzy" target="blank">
+<code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Dev.to" height="30" width="40"/></code></a> -->
 </p>
 
 ---
@@ -65,7 +64,7 @@
 <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/></code> 
 </a> 
 <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/></code>
+<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="NodeJs" width="40" height="40"/></code>
 </a> 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
 <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/></code> 
@@ -83,16 +82,18 @@
 <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/></code>
 </a> 
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></code>
+<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/></code>
 </a> 
 <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> 
-<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="arduino"  width="40"  height="40"/></code>
+<code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="Arduino"  width="40"  height="40"/></code>
 </a>
 </p>
 
 ---
 
-<p align="center"><img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=imbemzy&&theme=transparent" alt="streak-stats" /></p>
+<p align="center">
+  <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=imbemzy&&theme=transparent" alt="streak-stats" style="padding: 20px;"/>
+</p>
 
 ---
 
