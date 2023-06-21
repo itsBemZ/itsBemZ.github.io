@@ -49,7 +49,7 @@
 <p align="left">  
 
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="heroku" width="40" height="40"/> 
+<code><img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="heroku" width="40" height="40"/></code>
 </a>
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
