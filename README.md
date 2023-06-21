@@ -40,7 +40,7 @@
 <a href="https://medium.com/@zouhair.bem" target="blank">
 <code><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@zouhair.bem" height="30" width="40" /></code></a>
 <a href="https://dev.to/imbemzy" target="blank">
-<code><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="imbemzy" height="30" width="40" /></code></a>
+<code><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="imbemzy" height="30" width="45" /></code></a>
 </p>
 
 ---
