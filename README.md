@@ -30,17 +30,7 @@
 
 ---
 
-**Connect with me:**
-<p align="left">
-  <a href="https://twitter.com/zouhair_bem" target="blank">
-    <code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></code></a>
-  <a href="https://instagram.com/zouhair_bem" target="blank">
-    <code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Twitter" height="30" width="40" /></code></a>
-</p>
-
----
-
-**Languages and Tools:**
+<h3 align="center">Languages and Tools:</h3>
 <p align="center">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"> 
     <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></code>
@@ -87,6 +77,16 @@
 
 <p align="center">
   <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=imbemzy&&theme=transparent" alt="streak-stats" style="padding: 20px;"/>
+</p>
+
+---
+
+<h4 align="center">Connect with me:</h4>
+<p align="center">
+  <a href="https://twitter.com/zouhair_bem" target="blank">
+    <code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></code></a>
+  <a href="https://instagram.com/zouhair_bem" target="blank">
+    <code><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Twitter" height="30" width="40" /></code></a>
 </p>
 
 ---
