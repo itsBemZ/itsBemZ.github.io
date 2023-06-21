@@ -31,8 +31,8 @@
 
 **Connect with me:**
 <p align="left">
-<a href="https://github.com/imBemZy/" target="blank">
-<code><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="zouhair_bem" height="30" width="40" /></code></a>
+<code><a href="https://github.com/imBemZy/" target="blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="zouhair_bem" height="30" width="40" /></a></code>
 <a href="https://twitter.com/zouhair_bem" target="blank">
 <code><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="zouhair_bem" height="30" width="40" /></code></a>
 <a href="https://instagram.com/zouhair_bem" target="blank">
