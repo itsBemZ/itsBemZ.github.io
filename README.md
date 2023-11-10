@@ -20,7 +20,7 @@
 
 - 🤝 I’m looking for help with **[ReactJS](https://reactjs.org/)** & **[Python](https://www.python.org/)**
 
-- 👨‍💻 All of my projects are available at **[https://itsBemZ.github.io/](https://itsBemZ.github.io/)** <a href="https://github.com/itsBemZ/itaBemZ.github.io" target="blank"><img  src="https://img.shields.io/github/stars/itsBemZ/itsBemZ.github.io" alt="itsbemz" /> </a>
+- 👨‍💻 All of my projects are available at **[My GitHub Repositories](https://github.com/itsBemZ?tab=repositories)** <a href="https://github.com/itsBemZ/itaBemZ.github.io" target="blank"><img src="https://img.shields.io/github/stars/itsBemZ/itsBemZ.github.io" alt="itsbemz stars" /> </a>
 
 - 💬 Ask me about **Python, JavaScript**
 
