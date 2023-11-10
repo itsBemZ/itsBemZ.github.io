@@ -1,5 +1,5 @@
 <p align="center">
-  <img  align="center" alt="Image" width="100%" src="https://raw.githubusercontent.com/itsBemZ/itsBemZ/main/src/Assest/gif/jim-carrey-typing.gif?raw=true" />
+  <img  align="center" alt="Image" width="100%" src="https://raw.githubusercontent.com/itsBemZ/itsBemZ/main/src/Assest/gif/super-mario-banner.gif?raw=true" />
 </p>
 
 <p align="center">
