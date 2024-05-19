@@ -1,6 +1,8 @@
+
+<!-- Cover -->
 <p align="center">
   <img  align="center" alt="Image" width="100%" src="https://raw.githubusercontent.com/itsBemZ/itsBemZ/main/src/Assest/gif/super-mario-banner.gif?raw=true" />
-</p>
+</p> 
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -10,19 +12,24 @@
 </p>
 
 ---
+<!-- Fist project when i was learning JavaScript -->
+<!-- - 🔭 I’m currently working on **[Guess The Number](https://itsBemZ.github.io/Guess-The-Number/)** <span><a href="https://itsBemZ.github.io/Guess-The-Number/" target="blank">
+<img  src="https://img.shields.io/website?down_color=red&down_message=offline&label=&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2FitsBemZ.github.io%2FGuess-The-Number%2F" alt="zouhair_bem" /></a></span> - Web-Game using [Vanilla JavaScript](http://vanilla-js.com/) -->
 
-- 🔭 I’m currently working on **[Guess The Number](https://itsBemZ.github.io/Guess-The-Number/)** <span><a href="https://itsBemZ.github.io/Guess-The-Number/" target="blank">
-<img  src="https://img.shields.io/website?down_color=red&down_message=offline&label=&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2FitsBemZ.github.io%2FGuess-The-Number%2F" alt="zouhair_bem" /></a></span> - Web-Game using [Vanilla JavaScript](http://vanilla-js.com/)
+- 🔭 I'm currently working on several projects for my company, focusing on Backend APIs using **[Express.js](https://expressjs.com/)** or **[FastAPI](https://fastapi.tiangolo.com/)**
 
-- 🌱 I’m currently learning **[Python](https://www.python.org/) ,** **[JavaScript](https://www.javascript.com/)** & **[ReactJS](https://reactjs.org/)** Projects
+<!-- Learn them already -->
+<!-- - 🌱 I’m currently learning **[Python](https://www.python.org/) ,** **[JavaScript](https://www.javascript.com/)** & **[ReactJS](https://reactjs.org/)** Projects -->
 
-- 👯 I’m looking to collaborate on **[Electron Projects](https://www.electronjs.org/)**
+- 👯 I’m looking to collaborate on **[Electron Projects](https://www.electronjs.org/)** or **[ReactJS](https://reactjs.org/)** & **[Express.js](https://expressjs.com/)**
 
-- 🤝 I’m looking for help with **[ReactJS](https://reactjs.org/)** & **[Python](https://www.python.org/)**
+- 🤝 I’m looking for help with **[ReactJS](https://reactjs.org/)** & **[Redux](https://redux.js.org/)**
 
-- 👨‍💻 All of my projects are available at **[My GitHub Repositories](https://github.com/itsBemZ?tab=repositories)** <a href="https://github.com/itsBemZ/itaBemZ.github.io" target="blank"><img src="https://img.shields.io/github/stars/itsBemZ/itsBemZ.github.io" alt="itsbemz stars" /> </a>
+- 👨‍💻 All of my projects are available at **[My GitHub Repositories](https://github.com/itsBemZ?tab=repositories)** 
+  
+- 🚫 All our company's projects in repositories are private for privacy reasons
 
-- 💬 Ask me about **Python, JavaScript**
+- 💬 Ask me something written in **[Python](https://www.python.org/)** or **[JavaScript](https://en.wikipedia.org/wiki/JavaScript)**
 
 - 📫 How to reach me **[zouhair.bem@gmail.com](mailto:zouhair.bem@gmail.com)**
 
@@ -102,3 +109,8 @@
     <img  src="https://img.shields.io/twitter/follow/zouhair_bem?color=blue&logo=twitter&style=flat" alt="Follow me on twitter" />
   </a> 
 </p>
+
+---
+<h4 align="center">
+  <a  href="https://github.com/itsBemZ/itsBemZ.github.io" target="blank"><img src="https://img.shields.io/github/stars/itsBemZ/itsBemZ.github.io" alt="itsbemz stars" /></a>
+</h4>
